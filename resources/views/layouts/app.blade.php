@@ -12,7 +12,7 @@
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
 	</nav>
-    <div class="container mt-2">
+    <div class="container mt-2 mb-5">
         <div class="row">
             <div class="col-12">
                 @yield("contenido")

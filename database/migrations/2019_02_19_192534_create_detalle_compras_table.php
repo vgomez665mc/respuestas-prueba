@@ -17,7 +17,6 @@ class CreateDetalleComprasTable extends Migration
             $table->increments('id');
             $table->integer('compra_id')->unsigned();
             $table->string('nombre');
-            // $table->float('precio', 8, 2);
             $table->float('precio');
             $table->integer('categoria_id')->unsigned();
            
