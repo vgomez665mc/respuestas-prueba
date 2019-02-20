@@ -7,7 +7,7 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-dark justify-content-center">
-	  <a class="navbar-brand text-white" href="#">Victor Gomez</a>
+	  <a class="navbar-brand text-white" href="{{route('root_path')}}">Victor Gomez</a>
 	  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>

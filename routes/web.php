@@ -13,7 +13,7 @@
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('root_path');
 
 Route::get('/compra', 'CompraController@index')->name('compra');
 
